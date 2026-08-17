@@ -1,0 +1,45 @@
+{
+  "brand": {
+    "name": "Bliss Crafted",
+    "slogan": "Celebrate Beyond Expectation",
+    "email": "hello@blisscrafted.in",
+    "phone": "+91 98765 43210",
+    "whatsapp": "+919876543210",
+    "location": "Pune, Maharashtra, India"
+  },
+  "categories": [
+    {"id":"corporate","name":"Corporate Events","description":"Launches, conferences, annual celebrations and experiences built around your brand.","image":"https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1400&q=85"},
+    {"id":"personal","name":"Personal Celebrations","description":"Birthdays, anniversaries, baby showers and family milestones made memorable.","image":"https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1400&q=85"},
+    {"id":"premium","name":"Premium Events","description":"Luxury weddings, receptions, sangeet, cocktail evenings and private celebrations.","image":"https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1400&q=85"}
+  ],
+  "packages": [
+    {"id":"birthday-essential","name":"Birthday Essential","eventType":"Birthday","price":35000,"currency":"INR","guests":50,"includes":["Theme decoration","Balloon decoration","Cake table","Basic lighting","4-hour setup","Event coordinator"],"addons":["DJ","Photography","LED screen"]},
+    {"id":"birthday-premium","name":"Birthday Premium","eventType":"Birthday","price":65000,"currency":"INR","guests":80,"includes":["Premium theme decoration","Stage","Balloon decoration","LED screen","DJ","Photography","Event coordinator"],"addons":["Cinematic videography","Anchor","Premium catering"]},
+    {"id":"birthday-luxury","name":"Birthday Luxury","eventType":"Birthday","price":125000,"currency":"INR","guests":150,"includes":["Luxury theme","Premium stage","LED wall","Professional photography","Cinematic videography","DJ","Anchor","Entertainment","Premium catering","Dedicated event manager"],"addons":["Venue","Valet parking","Live music"]},
+    {"id":"corporate-premium","name":"Corporate Premium","eventType":"Corporate","price":185000,"currency":"INR","guests":250,"includes":["Concept design","Stage production","LED wall","Sound & lighting","Catering","Event host","Photography","Event manager"],"addons":["Live entertainment","Video production","Branding"]}
+  ],
+  "services": [
+    {"id":"venue","name":"Venue Management","price":25000},
+    {"id":"decor","name":"Premium Decoration","price":20000},
+    {"id":"catering","name":"Catering","price":450},
+    {"id":"photography","name":"Photography","price":15000},
+    {"id":"videography","name":"Cinematic Videography","price":18000},
+    {"id":"dj","name":"DJ & Sound","price":10000},
+    {"id":"live-music","name":"Live Music","price":25000},
+    {"id":"anchor","name":"Anchor / Host","price":8000},
+    {"id":"led","name":"LED Screen / Wall","price":18000},
+    {"id":"lighting","name":"Lighting","price":12000},
+    {"id":"stage","name":"Stage Production","price":18000},
+    {"id":"staff","name":"Event Staff","price":5000}
+  ],
+  "featuredEvents": [
+    {"id":"golden-hour","title":"The Golden Hour","type":"Private Celebration","location":"Pune","guests":150,"theme":"Champagne & Ivory","image":"https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1600&q=85","services":["Decoration","Catering","Photography","Event Management"]},
+    {"id":"future-forward","title":"Future Forward","type":"Corporate Annual Party","location":"Mumbai","guests":500,"theme":"Black & Gold","image":"https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1600&q=85","services":["Stage","LED Wall","Sound","Lighting","DJ","Catering","Photography"]},
+    {"id":"garden-after-dark","title":"Garden After Dark","type":"Wedding","location":"Lonavala","guests":280,"theme":"Botanical Night","image":"https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85","services":["Venue","Floral Decor","Catering","Entertainment","Photography"]}
+  ],
+  "testimonials": [
+    {"name":"Aarav & Meera","event":"Wedding","rating":5,"review":"Every detail felt personal. The team made the entire celebration feel effortless."},
+    {"name":"Rohan Mehta","event":"Corporate Annual Party","rating":5,"review":"From concept to execution, Bliss Crafted delivered a polished experience for our entire team."},
+    {"name":"Neha Kapoor","event":"50th Birthday","rating":5,"review":"The décor was stunning, the planning was seamless and our guests are still talking about it."}
+  ]
+}
