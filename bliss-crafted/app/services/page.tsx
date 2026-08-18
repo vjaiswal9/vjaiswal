@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import {ArrowRight} from 'lucide-react';
+import {services} from '@/lib/data';
+export default function Services(){return <main className="catalogue"><section className="pageHero"><Link href="/" className="backLink">← Back home</Link><div><p className="eyebrow">WHAT WE CREATE</p><h1>From first thought<br/>to <em>final toast.</em></h1><p>Creative direction, planning and production composed as one complete experience.</p></div></section><section><div className="servicesGrid">{services.map(s=><article className="serviceRow" key={s.no}><span className="serviceNo">{s.no}</span><div><h3>{s.title}</h3><p>{s.description}</p><div className="serviceDetails">{s.details.map(d=><span key={d}>{d}</span>)}</div></div><ArrowRight size={18}/></article>)}</div></section><section className="catalogueFooter"><h2>Ready to make<br/>something <em>yours?</em></h2><Link href="/planner">Start planning <ArrowRight size={16}/></Link></section></main>}
