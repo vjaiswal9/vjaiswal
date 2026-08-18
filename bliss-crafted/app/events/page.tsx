@@ -1,0 +1,5 @@
+import Link from 'next/link';
+import {ArrowUpRight,ArrowRight} from 'lucide-react';
+import {events} from '@/lib/data';
+
+export default function EventsPage(){return <main className="catalogue"><header className="catalogueHero"><Link className="catalogueBack" href="/">← Bliss Crafted</Link><div><p className="eyebrow">EVENT CATALOGUE · 01</p><h1>Choose the<br/><em>occasion.</em></h1><p>Start with a category, then explore the kind of experience we can craft around it.</p></div></header><section className="eventGrid">{events.map((event,i)=><Link className="eventTile" href={`/events/${event.slug}`} key={event.slug}><div className="eventImage" style={{backgroundImage:`url(${event.image})`}}/><div className="eventShade"/><div className="eventInfo"><small>{event.eyebrow}</small><h2>{event.title}</h2><p>{event.description}</p><span>Explore <ArrowUpRight size={16}/></span></div><b className="eventIndex">0{i+1}</b></Link>)}</section><section className="catalogueFooter"><p className="eyebrow">NOT SURE WHERE TO START?</p><h2>Tell us the feeling.<br/><em>We'll build the rest.</em></h2><Link href="/#planner">Open event planner <ArrowRight size={16}/></Link></section></main>}
